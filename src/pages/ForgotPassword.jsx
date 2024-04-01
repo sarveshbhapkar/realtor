@@ -44,7 +44,7 @@ export default function ForgotPassword() {
               
 
               <p>
-                <Link to="/forgot-password" className="text-blue-600 hover:text-blue-800">Sign in insted</Link>
+                <Link to="/sign-In" className="text-blue-600 hover:text-blue-800">Sign in insted</Link>
 
               </p>
            </div>

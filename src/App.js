@@ -1,4 +1,5 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import Header from "./components/Header";
 import ForgotPassword from "./pages/ForgotPassword";
 import Home from "./pages/Home";
 import Offers from "./pages/Offers";
@@ -11,7 +12,7 @@ function App() {
   return (
    <>
    <Router>
-
+      <Header/>
     <Routes>
     <Route path="/" element={<Home/>}></Route>
     <Route path="/Profile" element={<Profile/>}></Route>
