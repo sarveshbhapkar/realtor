@@ -11,8 +11,10 @@ export default function SignIn() {
     email: "",
     password: "",
   });
+
   const { email, password } = formData;
   const navigate = useNavigate();
+  
   function onChange(e) {
     setFormData((prevState) => ({
       ...prevState,
