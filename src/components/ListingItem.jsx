@@ -67,3 +67,4 @@ export default function ListingItem({ listing, id, onEdit, onDelete }) {
     </li>
   );
 }//completed listingitem component
+{/*add delete and edit functionality to the my listing section*/}
