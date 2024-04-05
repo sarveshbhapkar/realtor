@@ -24,9 +24,9 @@ function App() {
           </Route>
           <Route path="/sign-in" element={<SignIn />} />
           <Route path="/sign-up" element={<SignUp />} />
-          {/* <Route path="create-listing" element={<PrivateRoute />}> */}
+          <Route path="create-listing" element={<PrivateRoute />}>
             <Route path="/create-listing" element={<CreateListing />} />
-          {/* </Route> */}
+          </Route>
           {/* <Route path="/forgot-password" element={<ForgotPassword />} /> */}
           {/* <Route
             path="/category/:categoryName/:listingId"

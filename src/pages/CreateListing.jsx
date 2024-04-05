@@ -413,7 +413,7 @@ export default function CreateListing() {
                 {type === "rent" && (
                   <div className="">
                     <p className="text-md w-full whitespace-nowrap">
-                      $ / Month
+                    ₹ / Month
                     </p>
                   </div>
                 )}
