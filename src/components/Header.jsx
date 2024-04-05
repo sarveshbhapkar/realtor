@@ -64,3 +64,4 @@ export default function Header() {
     </div>
   );
 }
+//completed the header component and make it dynamic
