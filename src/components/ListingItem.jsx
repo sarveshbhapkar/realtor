@@ -25,8 +25,8 @@ export default function ListingItem({ listing, id, onEdit, onDelete }) {
             </p>
           </div>
           <p className="font-semibold m-0 text-xl truncate">{listing.name}</p>
-          <p className="text-[#457b9d] mt-2 font-semibold">
-            $
+          <p className="text-[#457b9d] mt-2 font-semibold ml-2">
+           rs
             {listing.offer
               ? listing.discountedPrice
                   .toString()
@@ -66,4 +66,4 @@ export default function ListingItem({ listing, id, onEdit, onDelete }) {
       )}
     </li>
   );
-}
+}//completed listingitem component
